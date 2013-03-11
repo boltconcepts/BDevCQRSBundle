@@ -1,0 +1,9 @@
+parameters:
+    bdev.cqrs.plugin.command_validator_factory.class: BDev\Bundle\CQRSBundle\Plugin\Validator\ValidatorHandlerFactory
+
+services:
+    bdev.cqrs.plugin.command_validator_factory:
+        class: %bdev.cqrs.plugin.command_validator_factory.class%
+        arguments: [@validator]
+        tags:
+            - { name: lite_cqrs.command_proxy_factory, priority: 100 }

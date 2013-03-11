@@ -1,0 +1,2 @@
+bdev_cqrs:
+  command_validation: true

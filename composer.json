@@ -1,0 +1,23 @@
+{
+    "name": "boltconcepts/bdev-cqrs-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle for CQRS in symfony2",
+    "authors": [
+        {
+            "name": "Warnar Boekkooi",
+            "email": "warnar@boekkooi.net"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": ">=2.0,<2.3-dev",
+        "beberlei/lite-cqrs": "dev-master"
+    },
+    "require-dev": {
+        "symfony/yaml": ">=2.0,<2.3-dev"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "BDev\\Bundle\\CQRSBundle": "" }
+    },
+    "target-dir": "BDev/Bundle/CQRSBundle"
+}

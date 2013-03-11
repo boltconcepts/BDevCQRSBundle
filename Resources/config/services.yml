@@ -1,0 +1,2 @@
+parameters:
+  litecqrs.command_bus.class: BDev\Bundle\CQRSBundle\Bus\ContainerScopedCommandBus
